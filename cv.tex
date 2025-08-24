@@ -1,0 +1,152 @@
+%-------------------------
+% Resume in Latex
+% Author: Razib Dash
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Razib Dash} \\ \vspace{4pt}
+    \textbf{\Large \scshape GenAI  \&  Mern stack developer} \\ \vspace{4pt}
+    \small \faPhone\ 01327758860 ~ 
+    \href{mailto:avrorazib@gmail.com}{\faEnvelope\ \underline{avrorazib@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/razibdash/}{\faLinkedin\ \underline{linkedin.com/in/razibdash}} 
+    \href{https://github.com/razibdash/}{\faGithub\ \underline{github.com/razibdash}} 
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+MERN Stack Developer with 2 years of experience in building scalable web applications using Node.js, Express, MongoDB, and React. Skilled in Generative AI with expertise in LangChain, LangGraph, LangServe, and RAG systems. Passionate about creating innovative AI-driven solutions and delivering high-quality software.
+
+%-----------SKILLS-----------
+\section{Skills}
+\textbf{Programming :} Javascript,Python,java \\
+\textbf{Frontend :} React.js,Tailwind CSS, Bootstrap, ShadCN UI,Redux, Context AP \\
+\textbf{Backend:} Node.js, Express.js,Flask,REST API Development \& Integration,Authentication & Authorization (JWT, OAuth),API Security \& Performance Optimization \\
+\textbf{Database:} MongoDB,MySQL,FAISS, Pinecone, Chroma\\
+\textbf{Tools:} Git \& GitHub,Postman,Jupyter Notebook,VS Code \\
+\textbf{AI/ML Tools:} LangChain, LangGraph, LangServe,RAG,OpenAI, Hugging Face Transformers,Pandas, NumPy\\
+
+%-----------INTERNSHIP-----------
+% \section{Experience}
+% \resumeSubHeadingListStart
+%   \resumeSubheading
+%     {Data Analyst Intern}{April 2025 -- June 2025}
+%     {Dataview Analytics (Remote)}{Tools Used: Excel, SQL, Power BI}
+%     \resumeItemListStart
+%       \resumeItem{\textbf{Processed and standardized a dataset of over 1,00,000 rows} from multiple regions to support weekly analytics—enabled business teams to track KPIs across geography and time.}
+%       \resumeItem{Designed smart Excel templates embedded with lookup functions and pivot logic, \textbf{saving 40\% reporting time across 4 departments.}}
+%       \resumeItem{Developed and maintained Power BI dashboards to visualize revenue trends, customer mix, and monthly performance—regularly used by managers and analysts across business units.}
+%       \resumeItem{Collaborated with 4 analysts and 2 senior managers to define and validate 6 KPIs, improving report reliability and strategic alignment.}
+%     \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+     \resumeProjectHeading
+      {\textbf{The Mind Stack (LMS)} $|$ \emph{javascript,AI}}{Current work}
+      \resumeItemListStart
+        \resumeItem{Developing a web-based Learning Management System (LMS) using MERN stack, integrating AI-powered text and image generation to enhance interactive learning and personalized content delivery.}
+        \resumeItem{\textbf{Frontend :} React, Tailwind CSS, and Framer Motion,ShadCN UI}
+         \resumeItem{\textbf{Backend :} node express mongodb}
+          \resumeItem{\textbf{AI Tools :}GoogleGenerativeAI,GROQ llama3-70b-8192 for ultra-fast reasoning,}
+      \resumeItemListEnd
+  \resumeProjectHeading
+      {\textbf{MU Chatbot} $|$ \emph{Python,javascript,Jupyter Notebook }}{july 2025 -- august 2025}
+      \resumeItemListStart
+        \resumeItem{This intelligent chatbot is designed to help students, applicants, and staff get instant answers about courses, admissions, academic calendars, and campus life — all through a smooth, conversational interface.}
+        \resumeItem{\textbf{Frontend :} React, Tailwind CSS, and Framer Motion}
+         \resumeItem{\textbf{Backend :} Python + Flask}
+          \resumeItem{\textbf{Built with :} LangChain + LangGraph agent architecture,GROQ LLaMA3 70B for ultra-fast reasoning,RAG (Retrieval-Augmented Generation) with documents indexed from the official MU website,Pinecone as vector database,real-time web searching using tavily search tool}
+      \resumeItemListEnd
+ \resumeProjectHeading
+      {\textbf{MU Chatbot} $|$ \emph{Python,javascript,Jupyter Notebook }}{july 2025 -- august 2025}
+      \resumeItemListStart
+        \resumeItem{This intelligent chatbot is designed to help students, applicants, and staff get instant answers about courses, admissions, academic calendars, and campus life — all through a smooth, conversational interface.}
+        \resumeItem{\textbf{Frontend :} React, Tailwind CSS, and Framer Motion}
+         \resumeItem{\textbf{Backend :} Python + Flask}
+          \resumeItem{\textbf{Built with :} LangChain + LangGraph agent architecture,GROQ LLaMA3 70B for ultra-fast reasoning,RAG (Retrieval-Augmented Generation) with documents indexed from the official MU website,Pinecone as vector database,real-time web searching using tavily search tool}
+      \resumeItemListEnd
+ 
+\resumeSubHeadingListEnd
+
+%-----------AWARDS-----------
+\section{Awards \& Certifications}
+\resumeItemListStart
+  \resumeItem{\textbf{The 2023 ICPC Asia Dhaka Regional Site Online Preliminary Contest:}  International Collegiate Programming Contest.}
+  \resumeItem{\textbf{JAVA:} HackerRank}
+  \resumeItem{\textbf{Certificate of Appreciation from the Metropolitan University Geography And Astronomical Society (MUGAS)!:}It was a privilege to showcase my passion for cultural expression and creativity during the "3000 Habitat Challenge" held on February 9-10, 2025, in collaboration with the MU Cultural Club.}
+\resumeItemListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {B.Sc. Computer Science and Engineering}{Graduated: 2025}
+    {Metropolitan University,Sylhet}{CGPA: 3.38 / 4}
+\resumeSubHeadingListEnd
+
+\end{document}
